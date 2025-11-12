@@ -1,0 +1,24 @@
+:root{
+  --bg:#07070b;
+  --card:#0f0f13;
+  --accent:#9b86f8;
+  --text:#d0d0d0;
+}
+
+html,body,#__next{height:100%;margin:0;padding:0;background:var(--bg);font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;}
+
+.page{color:var(--text);min-height:100vh}
+.header{padding:28px 16px;text-align:center}
+.logo{font-size:28px}
+.tag{color:var(--accent)}
+.nav, .nav a{display:flex;gap:10px;justify-content:center}
+.nav a{color:var(--text);padding:8px 12px;background:var(--card);border-radius:8px;text-decoration:none}
+.content{padding:16px}
+.hero{background:linear-gradient(90deg,#0b0b10,#0f0716);padding:14px;border-radius:10px}
+.cards{display:flex;gap:12px;margin-top:12px;flex-wrap:wrap}
+.cards article{background:var(--card);padding:12px;border-radius:8px;width:30%}
+.footer{padding:16px;text-align:center;color:#999;margin-top:24px}
+.subheader{padding:12px 16px;background:var(--card);margin:12px;border-radius:8px}
+.deck{background:var(--card);padding:8px;border-radius:8px;margin-bottom:8px}
+.mini{background:var(--card);padding:12px;border-radius:8px}
+a{color:var(--accent)}
