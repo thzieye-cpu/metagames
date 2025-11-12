@@ -1,0 +1,35 @@
+import Link from 'next/link'
+
+export default function Clash() {
+  return (
+    <div className="page">
+      <header className="subheader">
+        <h1>Clash Royale — Decks & Meta</h1>
+        <p>Decks meta, counters, decks de pros e guias por arena.</p>
+      </header>
+
+      <main className="content">
+        <section>
+          <h2>Decks Meta (exemplos)</h2>
+          <article className="deck">
+            <h3>Ciclo Leve PD</h3>
+            <p>Cartas: Príncipe das Trevas • Goblin com Dardo • Zap • Canhão • Mosqueteira • Tronco • Mini P.E.K.K.A • Foguete</p>
+            <p>Uso: arenas 7–13 • Win estimado: ~54%</p>
+          </article>
+
+          <article className="deck">
+            <h3>Beatdown Lamb</h3>
+            <p>Cartas: Gigante • Bebê Dragão • Bola de Fogo • Espírito</p>
+          </article>
+        </section>
+
+        <section>
+          <h2>Contra Porcos Reais</h2>
+          <p>Canhão + Espírito Elétrico ou Valquíria + Tronco — controle o ciclo e evite pushes duplos no mesmo lado.</p>
+        </section>
+
+        <p><Link href="/"><a>← Voltar</a></Link></p>
+      </main>
+    </div>
+  )
+}
